@@ -1,0 +1,121 @@
+Link to codepen project: https://codepen.io/jmbobbitt/pen/JjRXwgB?editors=1100 
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes.
+
+
+    1. What is Semantic HTML? 
+        <Semantic HTML> is defined as the use of HTML markup to reinforce the meaning of information in webpages/web 
+        applications. 
+    2. What is HTML used for? 
+        HTML is used to create and structure sections, paragraphs, headings, links, and blockquotes for web pages/apps. 
+    3. What is an attribute and where do we put it? 
+        An attribute is a modifier. It can either modify the functionality of an element type or provide functionality to 
+        certian elements that can't work without them. It is normally put in the HTML start tag. 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        The H1 tag is used to create the most important heading on the page. It should only be used once per page. 
+    5. Name two tags that have required attributes
+        image tag and attributes
+    6. What do we put in the head of our HTML document? 
+        We can put information that is not displayed in the web browser, such as the title, links to CSS, links to 
+        custom favicons, and other metadata (such as keywords).  
+    7. What is an id? 
+        The id attribute specifies a unique id for and HTML element to use in the document. 
+    8. What elements can I add an id to? 
+        You can add an id to most elements in HTML. 
+    9. How many times can I use the same id on a page? 
+        Id's should be unique. So one per page. 
+    10. What is a class? 
+        A class is used to specify one or more classnames for an element; mainly used to point to a class in 
+        a style sheet. 
+    11. What elements can I add a class to? 
+        the class attribute can be used in any HTML element. 
+    12. How many times can I use the same class on a page? 
+        You  can use the same class on a page multiple times. 
+    13. How do I get my link to open in a new tab?
+        You can add a target="_blank" attribute to your links to open in  new tab or new window. 
+    14. What is the alt attribute in the image tag used for? 
+        It will show an alternate text for the image, if the image can't be displayed. For example, like if there is a
+        slow connection. 
+    15. How do I reference an id?
+        write a #'id-name' to be able to select the given id you are wanting. 
+    16. What is the difference between a section and a div?
+        A section refers to parts of a document, while divs refers to section in an HTML document. 
+    17. What is CSS used for? 
+        CSS is used for describing the presentation of web pages (such as colors, layouts, and fonts).
+    18. How to we select an element? Example - every h2 on the page
+        You can select an element by using its tag name. If you want every h2 on the page, then in CSS you 
+        would type h2 {and then add whatever descriptor to it}.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        The difference between a class and id is that an id can be used to identify one element, whereas you
+        can use a class more than once. 
+        An example of using class:
+        An example of using ID: 
+    20. How do we select classes in CSS?
+        To select classes in CSS, write a period (.) character followed by the name of the class. 
+        For example, .class-name
+    21. How do we select a p element with a single class of “human”?
+        We can select a p element with a single class of "human" by: select the class first then selecting the element. 
+        For example: .human p { insert change styles here}
+    22. What is a parent child selector? When would this be useful? 
+        This selects all elements that a direct child of a specified element. This is useful when using nested list. 
+    23. How do you select all links within a div with the class of sidebar?
+        To select all the links within a div with the class of sidebar: use the character period (.sidebar)
+    24. What is a pseudo selector?
+        A pseudo selector is a selector that selects elements that are in a specific state (ex. 1st element of their 
+        type/ hovered over by mouse pointer).
+    25. What do we use the change the spacing between lines?
+        Use the line-height property in CSS. 
+    26. What do we use to change the spacing between letters?
+        Use the letter-spacing property, and change the value by using pixels or em values. 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        CAPITALS: p{ text-transform: uppercase}
+        lowercase: p{ text-transform: lowercase}
+        Capitalize: p{ text-transform: capitalize}
+    28. How do I add a 1px border around my div that is dotted and black?
+        div.dotted {
+            outline-style: dotted;
+             outline-color:red;
+             }
+    29. How do I select everything on the page? 
+        To select everything on the page, you can use * 
+        Example: * { background-color: gray;}
+    30. How do I write a comment in CSS? 
+        To write a comment in CSS, write 
+        /* and type what you want to comment then end with */  
+    31. How do I find out what file I am in, when I am using the command line? 
+        To find what file you are in use the command (pwd).
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        You can use the command (ls).
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        You can remove a file via the command (rm filename). You need to be careful with this 
+        as in some systems it won't prompt you before deleting the file(s), so you could lose 
+        a lot of work. 
+    34. Why should I use version control? 
+        I should use version control to help teams solve problems. It helps by tracking 
+        every inidividual change by each contributor and helps prevent concurrent work 
+        from conflicting. 
+    35. How often should I commit to github?
+        I should commit to github fairly often. I should get in the habit to commit every 2-5 
+        hours or after finishing a feature for a project that is being worked on.
+    36. What is the command we would use to push our repo up to github? 
+        We should use the (git add .) command to add our changes to the repo then use the 
+        command (git commit -m 'helpful comment here'); after this use the command 
+        (git push -u origin branch-name) to push back to github. 
+    37. Walk me through Lambda's git flow. 
+        Walk through of Lambda's git flow:
+            1. always fork your own version of repo
+            2. make sure your name is in front of repo
+            3. clone repo by: copying URL of your repo
+            4. then inside Git-Bash, use the cd command to go to the directory where your new clone is to be placed. (EX: cd documents/git )
+            5. use the git clone command to make a copy into your 
+            directory (ex: git clone https://copyofurlfromgithub.com)
+            6. cd into the newly created repo using the command (ex: cd <repo-name>)
+            7. use the git command checkout to change to your branch name 
+                (ex: git checkout -b 'firstname-lastname)
+            8. use command (ex: code .) to pull VSC open on your device and 
+            work on project. 
+            9. Make sure to use these commands often to keep the branch clean and saved (Ex: git add .) & (Ex: git commit -m "your helpful comment here").
+            10. When finished and ready to push back to github be sure to use the following command  (Ex: git push -u origin branc-name)
+            11. After pushing back to github, go back to the forked repo project and create a new pull request under your branch name. (Remember to not click the merge icon!)
