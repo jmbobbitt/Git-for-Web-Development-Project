@@ -1,4 +1,4 @@
-Link to codepen project: https://codepen.io/jmbobbitt/pen/gOrVxqR 
+Link to codepen project: https://codepen.io/jmbobbitt/pen/JjRXwgB?editors=1100 
 
 <!-- Questions to Submit in today's file first-lastname.txt --> 
 <!--
